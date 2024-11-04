@@ -1,0 +1,271 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image:url(../Images1/front3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #333;
+}
+
+header {
+  background-image: url('../Images1/header-bg.jpg');
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+header .nav-container{
+  position: absolute;
+  top: 20px;
+  width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image:url(../Images1/front3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #333;
+}
+
+header {
+  background-image: url('../Images1/header-bg.jpg');
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+header .nav-container{
+  position: absolute;
+  top: 20px;
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  padding: 10px 20px;
+  transition: background 0.3s;
+}
+
+nav a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+}
+
+.welcome-text h1 {
+  font-size: 4rem;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.welcome-text p {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+.explore-btn {
+  padding: 15px 30px;
+  background-color: #ff6347;
+  color: white;
+  text-transform: uppercase;
+  border-radius: 30px;
+  font-size: 1.2rem;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.explore-btn:hover {
+  background-color: #e5533f;
+}
+
+.main-content {
+  padding: 50px 0;
+  text-align: center;
+  background-color: white;
+}
+
+h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.2rem;
+  margin-bottom: 50px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.welcome-text h1 {
+  font-size: 4rem;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.welcome-text p {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+.explore-btn {
+  padding: 15px 30px;
+  background-color: #ff6347;
+  color: white;
+  text-transform: uppercase;
+  border-radius: 30px;
+  font-size: 1.2rem;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.explore-btn:hover {
+  background-color: #e5533f;
+}
+
+
+
+h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.2rem;
+  margin-bottom: 50px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+
+
+
+.carousel-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+.carousel {
+  display: flex;
+  animation: scroll 40s linear infinite;
+}
+
+.cards {
+  display: flex;
+}
+
+.card {
+  flex: 0 0 20%;
+  margin: 0 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  overflow: hidden;
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-bottom: 2px solid #ff6347;
+}
+
+.card h3 {
+  font-size: 1.5rem;
+  margin: 15px 0;
+  color: #ff6347;
+}
+
+.card p {
+  font-size: 1rem;
+  padding: 0 15px 20px 15px;
+  color: #555;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  border-radius: 10px;
+}
+@keyframes scroll {
+  0% {
+      transform: translateX(100%);
+  }
+  100% {
+      transform: translateX(-100%);
+  }
+}
+.nav-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(255, 99, 71, 0.8);
+  border: none;
+  color: white;
+  font-size: 24px;
+  padding: 10px 20px;
+  cursor: pointer;
+  z-index: 10;
+  transition: background-color 0.3s;
+}
+
+.prev-btn {
+  left: 10px;
+}
+
+.next-btn {
+  right: 10px;
+}
+
+.nav-btn:hover {
+  background-color: #ff6347;
+  border-radius: 10px;
+}
+
+.carousel:hover {
+  animation-play-state: paused; /* Pause scrolling animation when hovering */
+  border-radius: 10px;
+}
+input{
+  padding:10px;
+  border-radius:10px;
+}
+input:hover{
+  background-color: #555;
+  color:white;
+  align-items:center;
+}
+
+img{
+  border-radius:20px;
+}
